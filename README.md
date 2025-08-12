@@ -47,3 +47,9 @@ Test MSE: 0.01
 Test MAE: 0.09
 
 Test R²: 0.9550
+
+---
+## Kullanım
+civic-yeni-data.csv ve civic_güncel_veri_seti_4.csv veri dosyalarını projenin kök dizinine ekleyin.
+
+Jupyter ortamında Yapay_Zeka_Civic_Araba.ipynb dosyasını açın ve hücreleri sırayla çalıştırın.
