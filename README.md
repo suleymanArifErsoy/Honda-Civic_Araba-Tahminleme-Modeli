@@ -27,11 +27,11 @@ Projelerde "civic-yeni-data.csv" ve "civic_güncel_veri_seti_4.csv" adlarında i
 ## Metodoloji
 Veri Okuma ve Temizleme: İlk olarak civic-yeni-data.csv dosyası pandas DataFrame'ine yüklenir. Ardından, 'year', 'enginePower' ve 'engineCapacity' sütunlarındaki boş (null) değerler içeren satırlar kaldırılmıştır. Son olarak, 'painted' ve 'changed' sütunlarındaki boş değerler "yok" olarak doldurulmuştur.
 
-### Özellik Mühendisliği: Fiyat ('price') verisi, modelin performansını artırmak için np.log1p fonksiyonu kullanılarak logaritmik dönüşüme tabi tutulmuştur.
+Özellik Mühendisliği: Fiyat ('price') verisi, modelin performansını artırmak için np.log1p fonksiyonu kullanılarak logaritmik dönüşüme tabi tutulmuştur.
 
-### Model Oluşturma: Tahmin modeli olarak LinearRegression kullanılmıştır.
+Model Oluşturma: Tahmin modeli olarak LinearRegression kullanılmıştır.
 
-### Performans Değerlendirmesi: Modelin başarısı, Ortalama Mutlak Hata (MAE), Ortalama Kare Hata (MSE) ve R² skoru metrikleri ile değerlendirilmiştir.
+Performans Değerlendirmesi: Modelin başarısı, Ortalama Mutlak Hata (MAE), Ortalama Kare Hata (MSE) ve R² skoru metrikleri ile değerlendirilmiştir.
 
 ---
 
